@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+}
+.active{
+  color:red;
+}
+/* 最大的盒子  */
+#app{
+  width:1519px;
+  height:760px;
+}
+/* 头部导航栏第一个联系热线 */
+#step{
+  width:1519px;
+  height:50px;
+}
+ #step .span-item1{
+   margin-left:300px; 
+   /* 设置字体间距是多少 */
+   letter-spacing:8px;
+   line-height: 50px;
+ }
+ #step .span-item2{
+   margin-left:330px;
+   letter-spacing:8px;
+   line-height: 50px;
+ }
+/* 页面跳转 */
+#top{
+  width:1506px;
+  height:100px;
+  position: relative;
+}
+ #home{
+  width:auto;
+  height:auto;
+  margin-left:780px;
+  position: absolute;
+  top:45px;
+}
+#home a{
+  padding:20px;
+}
+#content{
+  width:1516px;
+  height:650px;
+  background-color: red;
+}
